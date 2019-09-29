@@ -15,11 +15,11 @@ const input = prompt('今日の天気は？次の3つのうち、いずれかの
 //
 // alertのドキュメント: https://developer.mozilla.org/ja/docs/Web/API/Window/alert
 if (input === '晴れ') {
-    alert ('今日は気持ちの良い一日になりそうですね！');
+    alert('今日は気持ちの良い一日になりそうですね！');
 } else if (input === 'くもり') {
-    alert ('どんよりした天気ですが今日も一日がんばりましょう！');
+    alert('どんよりした天気ですが今日も一日がんばりましょう！');
 } else if (input === '雨') {
-    alert ('家でゆっくり過ごすのも良いと思いますよ！');
+    alert('家でゆっくり過ごすのも良いと思いますよ！');
 } else {
-    alert ('晴れ・くもり・雨以外の文字列には対応していません。');
+    alert('晴れ・くもり・雨以外の文字列には対応していません。');
 }
